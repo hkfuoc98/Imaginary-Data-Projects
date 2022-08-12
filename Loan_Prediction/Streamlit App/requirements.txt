@@ -1,6 +1,6 @@
-pandas
-numpy
-plotly
-streamlit
-scikit-learn
-pickle
+pandas==1.4.3
+numpy==1.23.1
+plotly==5.9.0
+streamlit==1.11.0
+scikit-learn==1.1.1
+pickle==0.7.5
