@@ -169,7 +169,7 @@ Property_Area = st.sidebar.radio(
 
 l = [Gender, Married, Education, Self_Employed, ApplicantIncome, LoanAmount, Property_Area]
 for i in range(len(l)):
-    if l[i] == 'Unknown' | l[i] == 'Non-binary':
+    if l[i] == 'Unknown' or l[i] == 'Non-binary':
         l[i] = None
 [Gender, Married, Education, Self_Employed, ApplicantIncome, LoanAmount, Property_Area] = l
 
