@@ -1,4 +1,3 @@
 numpy
 plotly
 scikit-learn
-pickle
